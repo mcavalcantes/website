@@ -26,8 +26,8 @@ export const SKILLS: Array<Skill> = [
   {
     TITLE: "Linguagens",
     ITEMS: [
-      "JavaScript",
       "TypeScript",
+      "JavaScript",
       "HTML",
       "CSS",
     ],
