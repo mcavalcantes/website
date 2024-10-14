@@ -1,5 +1,9 @@
+import { Layout } from "../../components/layout/Layout";
+
 export const Blog = () => {
   return (
-    <div>Blog</div>
+    <Layout>
+      <p>blog</p>
+    </Layout>
   );
 }
