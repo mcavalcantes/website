@@ -28,7 +28,7 @@ export const Header = ({ theme, setTheme }: HeaderProps) => {
         <HeaderButton href="/blog" title="Blog" />
       </span>
       <span className="flex items-center gap-2">
-        <button onClick={toggleTheme} className="p-1 rounded hover:bg-light-hover active:bg-light-active dark:hover:bg-dark-hover dark:active:bg-dark-active transition ease-out">
+        <button onClick={toggleTheme} className="p-1 rounded hover:bg-light-hover dark:hover:bg-dark-hover transition ease-out">
           <img src={theme === "light" ? moonIcon : sunIcon}/>
         </button>
       </span>

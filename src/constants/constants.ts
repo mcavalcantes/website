@@ -12,7 +12,7 @@ export const EDUCATIONS: Array<Education> = [
     START_DATE: "mar. 2023",
     END_DATE: "o momento",
     TITLE: "Universidade Tecnológica Federal do Paraná",
-    SUBTITLE: "Engenharia de Computação",
+    SUBTITLE: "Bacharelado em Engenharia de Computação",
   },
   {
     START_DATE: "abr. 2018",
@@ -42,8 +42,8 @@ export const SKILLS: Array<Skill> = [
   {
     TITLE: "Ferramentas",
     ITEMS: [
-      "Git",
       "Figma",
+      "Git",
     ],
   },
   {
@@ -129,40 +129,40 @@ export const ACHIEVEMENTS: Array<Achievement> = [
 export const SOCIALS: Array<Social> = [
   {
     ICON: {
-      BLACK: "/src/assets/iconmonstr-email-4-black.svg",
-      WHITE: "/src/assets/iconmonstr-email-4-white.svg",
+      BLACK: "/src/assets/icons/iconmonstr-email-4-black.svg",
+      WHITE: "/src/assets/icons/iconmonstr-email-4-white.svg",
     },
     HREF: "mailto:matheuscavalcantes.mc@gmail.com",
     TITLE: "Email",
   },
   {
     ICON: {
-      BLACK: "/src/assets/iconmonstr-instagram-11-black.svg",
-      WHITE: "/src/assets/iconmonstr-instagram-11-white.svg",
+      BLACK: "/src/assets/icons/iconmonstr-instagram-11-black.svg",
+      WHITE: "/src/assets/icons/iconmonstr-instagram-11-white.svg",
     },
     HREF: "https://www.instagram.com/mcavalcante.s/",
     TITLE: "Instagram",
   },
   {
     ICON: {
-      BLACK: "/src/assets/iconmonstr-linkedin-1-black.svg",
-      WHITE: "/src/assets/iconmonstr-linkedin-1-white.svg",
+      BLACK: "/src/assets/icons/iconmonstr-linkedin-1-black.svg",
+      WHITE: "/src/assets/icons/iconmonstr-linkedin-1-white.svg",
     },
     HREF: "https://www.linkedin.com/in/ms-cavalcante/",
     TITLE: "LinkedIn",
   },
   {
     ICON: {
-      BLACK: "/src/assets/iconmonstr-github-1-black.svg",
-      WHITE: "/src/assets/iconmonstr-github-1-white.svg",
+      BLACK: "/src/assets/icons/iconmonstr-github-1-black.svg",
+      WHITE: "/src/assets/icons/iconmonstr-github-1-white.svg",
     },
     HREF: "https://github.com/mcavalcantes",
     TITLE: "GitHub",
   },
   {
     ICON: {
-      BLACK: "/src/assets/iconmonstr-spotify-1-black.svg",
-      WHITE: "/src/assets/iconmonstr-spotify-1-white.svg",
+      BLACK: "/src/assets/icons/iconmonstr-spotify-1-black.svg",
+      WHITE: "/src/assets/icons/iconmonstr-spotify-1-white.svg",
     },
     HREF: "https://open.spotify.com/user/rbon5uxdcd2qfk7oc26ezujmm",
     TITLE: "Spotify",
