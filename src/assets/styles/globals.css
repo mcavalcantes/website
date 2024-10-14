@@ -72,6 +72,10 @@ html {
   font-family: "Inter", sans-serif;
 }
 
+article {
+  font-family: "Georgia", serif;
+}
+
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -91,6 +95,14 @@ h3 {
 }
 
 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
