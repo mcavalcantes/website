@@ -11,13 +11,13 @@ export const EDUCATIONS: Array<Education> = [
   {
     START_DATE: "mar. 2023",
     END_DATE: "o momento",
-    TITLE: "Universidade Tecnológica Federal do Paraná",
+    TITLE: "UTFPR",
     SUBTITLE: "Bacharelado em Engenharia de Computação",
   },
   {
     START_DATE: "abr. 2018",
     END_DATE: "set. 2021",
-    TITLE: "Instituto Federal do Pará",
+    TITLE: "IFPA",
     SUBTITLE: "Técnico em Meio Ambiente integrado ao Ensino Médio",
   },
 ];
@@ -33,6 +33,7 @@ export const SKILLS: Array<Skill> = [
       "SQL",
       "Python",
       "Java",
+      "C++",
       "C",
     ],
   },
