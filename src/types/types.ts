@@ -40,3 +40,11 @@ export interface Social {
   HREF: string;
   TITLE: string;
 }
+
+export interface Post {
+  DATE: string;
+  HREF: string;
+  TITLE: string;
+  PREVIEW: string;
+  CONTENT: string;
+}

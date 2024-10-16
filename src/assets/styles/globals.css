@@ -72,10 +72,6 @@ html {
   font-family: "Inter", sans-serif;
 }
 
-article {
-  font-family: "Georgia", serif;
-}
-
 h1, h2, h3 {
   font-weight: bold;
 }
@@ -111,4 +107,27 @@ ol {
 section {
   display: flex;
   flex-direction: column;
+}
+
+/* blog styling below */
+
+article {
+  font-family: "Georgia", serif;
+}
+
+article h1, h2, h3, span {
+  font-family: "Inter", sans-serif;
+}
+
+article ul, ol {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+article li::marker {
+  font-weight: bold;
+}
+
+article a {
+  @apply px-0.5 underline decoration-dotted underline-offset-2 bg-light-hover dark:bg-dark-hover;
 }

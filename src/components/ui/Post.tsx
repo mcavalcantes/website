@@ -1,11 +1,15 @@
-import React from "react";
+import Markdown from "react-markdown";
 
 interface PostProps {
-  children: React.ReactNode;
+  DATE: string;
+  TITLE: string;
+  CONTENT: string;
 }
 
-export const Post = ({ children }: PostProps) => (
+export const Post = ({ DATE, TITLE, CONTENT }: PostProps) => (
   <article className="text-lg flex flex-col gap-4">
-    {children}
+    <h1>{TITLE}</h1>
+    <span className="text-sm italic">{DATE}</span>
+    <Markdown>{CONTENT}</Markdown>
   </article>
 );

@@ -5,7 +5,11 @@ import {
   Project,
   Achievement,
   Social,
+  Post,
 } from "../types/types";
+
+import TRINTA_PREVIEW from "../content/TRINTA_PREVIEW.md";
+import TRINTA from "../content/TRINTA.md";
 
 export const EDUCATIONS: Array<Education> = [
   {
@@ -108,12 +112,25 @@ export const EXPERIENCES: Array<Experience> = [
 
 export const PROJECTS: Array<Project> = [
   {
+    HREF: "/",
+    TITLE: "Portfólio",
+    DESCRIPTION: "Website pessoal com o propósito principal de mostrar, de " +
+    "forma completa, minhas habilidades, experiências, projetos, e conquistas. " +
+    "Além disso, também serve como uma página onde guardo meus pensamentos e ideias " +
+    "na forma de artigos, como um repositório da mente.",
+    BULLETS: [
+      "Feito com TypeScript, React, Tailwind CSS, e Node.js.",
+      "Interface de usuário totalmente responsiva, com prototipagem prévia feita no Figma.",
+      "Blog com suporte para escrita usando arquivos Markdown, permitindo um melhor gerenciamento da estrutura dos posts.",
+    ],
+  },
+  {
     HREF: "https://mcavalcantes.github.io/derivadash/",
     TITLE: "DerivaDash",
     DESCRIPTION: "Aplicação web que serve como uma ferramenta de estudos " +
     "destinada a estudantes de engenharia, visando reforçar o aprendizado das " +
     "regras de derivação na disciplina de cálculo de uma maneira ágil, em um formato " +
-    "de quiz. Feito com HTML, CSS, e JavaScript.",
+    "de quiz. Feito com HTML, CSS, e JavaScript puro.",
     BULLETS: [
       "Página interativa que mostra uma questão de múltipla escolha a ser respondida pelo usuário.",
       "Personalização da página com três temas distintos, com feedback visual para erros e acertos.",
@@ -179,5 +196,15 @@ export const SOCIALS: Array<Social> = [
     },
     HREF: "https://open.spotify.com/user/rbon5uxdcd2qfk7oc26ezujmm",
     TITLE: "Spotify",
+  },
+];
+
+export const POSTS: Array<Post> = [
+  {
+    DATE: "16 out. 2024",
+    HREF: "/trinta",
+    TITLE: "30 dias, 30 músicas",
+    PREVIEW: TRINTA_PREVIEW,
+    CONTENT: TRINTA,
   },
 ];
