@@ -29,7 +29,7 @@ export const Blog = () => {
           <li key={uuidv4()}>
             <PostPreview
               DATE={item.DATE}
-              HREF={item.HREF}
+              HREF={`blog/${item.HREF}`}
               TITLE={item.TITLE}
               PREVIEW={item.PREVIEW}
             />

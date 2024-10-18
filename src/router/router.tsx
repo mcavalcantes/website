@@ -2,19 +2,30 @@ import { createBrowserRouter } from "react-router-dom";
 
 import { Home } from "../pages/Home/home";
 import { Blog } from "../pages/Blog/blog";
+import { Post } from "../pages/Post/post";
 
-const ROUTES = {
-  Home: "/",
-  Blog: "/blog",
-};
+import { POSTS } from "../constants/constants";
 
-export const router = createBrowserRouter([
+const ROUTES = [
   {
-    path: ROUTES.Home,
+    path: "/",
     element: <Home />,
   },
   {
-    path: ROUTES.Blog,
+    path: "blog",
     element: <Blog />,
   },
-]);
+];
+
+const BLOG_ROUTES = POSTS.map(item => {
+  return ({
+    path: `blog/${item.HREF}`,
+    element: <Post
+      DATE={item.DATE}
+      TITLE={item.TITLE}
+      CONTENT={item.CONTENT}
+    />,
+  });
+});
+
+export const router = createBrowserRouter(ROUTES.concat(BLOG_ROUTES));

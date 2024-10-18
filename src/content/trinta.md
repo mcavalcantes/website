@@ -12,7 +12,7 @@ experiências, histórias, aprendizados, etc. também é o que eu quero fazer aq
 Enfim, como um post piloto (e pelo fato de que não tô com nenhuma boa ideia agora), por que não
 fazer um post sobre músicas? Peguei um daqueles templates pra stories do Instagram e resolvi
 fazer: escolher 30 músicas pra um tema específico. Procurei não enrolar muito e colocar as
-primeiras músicas que me vieram à cabeça. Enjoy.
+primeiras músicas que me vieram à cabeça.
 
 1. Uma música com uma cor no título: Back In Black, _AC/DC_
 2. Uma música com um número no título: 333, _Matuê_

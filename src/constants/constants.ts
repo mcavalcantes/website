@@ -121,7 +121,7 @@ export const PROJECTS: Array<Project> = [
     BULLETS: [
       "Feito com TypeScript, React, Tailwind CSS, e Node.js.",
       "Interface de usuário totalmente responsiva, com prototipagem prévia feita no Figma.",
-      "Blog com suporte para escrita usando arquivos Markdown, permitindo um melhor gerenciamento da estrutura dos posts.",
+      "Blog com suporte para escrita usando arquivos Markdown, permitindo uma melhor organização da estrutura dos posts.",
     ],
   },
   {
@@ -202,7 +202,7 @@ export const SOCIALS: Array<Social> = [
 export const POSTS: Array<Post> = [
   {
     DATE: "16 out. 2024",
-    HREF: "/trinta",
+    HREF: "trinta",
     TITLE: "30 dias, 30 músicas",
     PREVIEW: TRINTA_PREVIEW,
     CONTENT: TRINTA,
