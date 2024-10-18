@@ -1,5 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
 
+import blackExternalIcon from "../../assets/icons/link-external-black.svg";
+import whiteExternalIcon from "../../assets/icons/link-external-white.svg";
+
 interface CardProps {
   START_DATE: string | null;
   END_DATE: string | null;
@@ -29,8 +32,8 @@ export const Card = ({
           HREF &&
           <a href={HREF} className="rounded hover:bg-light-hover dark:hover:bg-dark-hover transition ease-out" target="_blank">
             <img src={localStorage.getItem("theme") === "light" ?
-              "/src/assets/icons/link-external-black.svg" :
-              "/src/assets/icons/link-external-white.svg"
+              blackExternalIcon :
+              whiteExternalIcon
             }/>
           </a>
         }

@@ -11,6 +11,21 @@ import {
 import TRINTA_PREVIEW from "../content/TRINTA_PREVIEW.md";
 import TRINTA from "../content/TRINTA.md";
 
+import emailBlack from "../assets/icons/iconmonstr-email-4-black.svg";
+import emailWhite from "../assets/icons/iconmonstr-email-4-white.svg";
+
+import instagramBlack from "../assets/icons/iconmonstr-instagram-11-black.svg";
+import instagramWhite from "../assets/icons/iconmonstr-instagram-11-white.svg";
+
+import linkedinBlack from "../assets/icons/iconmonstr-linkedin-1-black.svg";
+import linkedinWhite from "../assets/icons/iconmonstr-linkedin-1-white.svg";
+
+import githubBlack from "../assets/icons/iconmonstr-github-1-black.svg";
+import githubWhite from "../assets/icons/iconmonstr-github-1-white.svg";
+
+import spotifyBlack from "../assets/icons/iconmonstr-spotify-1-black.svg";
+import spotifyWhite from "../assets/icons/iconmonstr-spotify-1-white.svg";
+
 export const EDUCATIONS: Array<Education> = [
   {
     START_DATE: "mar. 2023",
@@ -159,40 +174,40 @@ export const ACHIEVEMENTS: Array<Achievement> = [
 export const SOCIALS: Array<Social> = [
   {
     ICON: {
-      BLACK: "/src/assets/icons/iconmonstr-email-4-black.svg",
-      WHITE: "/src/assets/icons/iconmonstr-email-4-white.svg",
+      BLACK: emailBlack,
+      WHITE: emailWhite,
     },
     HREF: "mailto:matheuscavalcantes.mc@gmail.com",
     TITLE: "Email",
   },
   {
     ICON: {
-      BLACK: "/src/assets/icons/iconmonstr-instagram-11-black.svg",
-      WHITE: "/src/assets/icons/iconmonstr-instagram-11-white.svg",
+      BLACK: instagramBlack,
+      WHITE: instagramWhite,
     },
     HREF: "https://www.instagram.com/mcavalcante.s/",
     TITLE: "Instagram",
   },
   {
     ICON: {
-      BLACK: "/src/assets/icons/iconmonstr-linkedin-1-black.svg",
-      WHITE: "/src/assets/icons/iconmonstr-linkedin-1-white.svg",
+      BLACK: linkedinBlack,
+      WHITE: linkedinWhite,
     },
     HREF: "https://www.linkedin.com/in/ms-cavalcante/",
     TITLE: "LinkedIn",
   },
   {
     ICON: {
-      BLACK: "/src/assets/icons/iconmonstr-github-1-black.svg",
-      WHITE: "/src/assets/icons/iconmonstr-github-1-white.svg",
+      BLACK: githubBlack,
+      WHITE: githubWhite,
     },
     HREF: "https://github.com/mcavalcantes",
     TITLE: "GitHub",
   },
   {
     ICON: {
-      BLACK: "/src/assets/icons/iconmonstr-spotify-1-black.svg",
-      WHITE: "/src/assets/icons/iconmonstr-spotify-1-white.svg",
+      BLACK: spotifyBlack,
+      WHITE: spotifyWhite,
     },
     HREF: "https://open.spotify.com/user/rbon5uxdcd2qfk7oc26ezujmm",
     TITLE: "Spotify",
