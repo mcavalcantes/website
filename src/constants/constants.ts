@@ -8,8 +8,8 @@ import {
   Post,
 } from "../types/types";
 
-import TRINTA_PREVIEW from "../content/TRINTA_PREVIEW.md";
-import TRINTA from "../content/TRINTA.md";
+import TRINTA_PREVIEW from "../assets/posts/TRINTA_PREVIEW.md";
+import TRINTA from "../assets/posts/TRINTA.md";
 
 import emailBlack from "../assets/icons/iconmonstr-email-4-black.svg";
 import emailWhite from "../assets/icons/iconmonstr-email-4-white.svg";
