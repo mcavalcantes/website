@@ -10,6 +10,8 @@ import {
 
 import TRINTA_PREVIEW from "../assets/posts/TRINTA_PREVIEW.md";
 import TRINTA from "../assets/posts/TRINTA.md";
+import QUATRO_PREVIEW from "../assets/posts/QUATRO_PREVIEW.md";
+import QUATRO from "../assets/posts/QUATRO.md";
 
 import emailBlack from "../assets/icons/iconmonstr-email-4-black.svg";
 import emailWhite from "../assets/icons/iconmonstr-email-4-white.svg";
@@ -215,6 +217,13 @@ export const SOCIALS: Array<Social> = [
 ];
 
 export const POSTS: Array<Post> = [
+  {
+    DATE: "20 out. 2024",
+    HREF: "quatro",
+    TITLE: "4 coisas que eu gostaria de saber antes de começar a programar",
+    PREVIEW: QUATRO_PREVIEW,
+    CONTENT: QUATRO,
+  },
   {
     DATE: "16 out. 2024",
     HREF: "trinta",
