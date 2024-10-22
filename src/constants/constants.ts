@@ -51,11 +51,8 @@ export const SKILLS: Array<Skill> = [
       "JavaScript",
       "HTML",
       "CSS",
-      "SQL",
       "Python",
-      "Java",
-      "C++",
-      "C",
+      "SQL",
     ],
   },
   {
@@ -64,8 +61,6 @@ export const SKILLS: Array<Skill> = [
       "React",
       "Tailwind CSS",
       "PostgreSQL",
-      "Node.js",
-      "npm",
     ],
   },
   {
@@ -80,13 +75,7 @@ export const SKILLS: Array<Skill> = [
     TITLE: "Outros",
     ITEMS: [
       "Inglês",
-      "Algoritmos",
-      "Estruturas de Dados",
       "Automação",
-      "Design",
-      "Word",
-      "PowerPoint",
-      "Excel",
     ],
   },
 ];

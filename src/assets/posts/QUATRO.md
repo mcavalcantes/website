@@ -43,7 +43,7 @@ com a prática, lendo artigos, observando o desenvolvimento de projetos, analisa
 vendo trechos de implementações de algumas funcionalidades, e por aí vai.
 Procure implementar boas práticas no seu projeto, estruture ele de uma forma diferente
 daquela que está acostumado, faça etapas prévias ou posteriores que nunca fez antes (i.e.
-protipagem, análise de requisitos, testes automatizados).
+prototipagem, análise de requisitos, testes automatizados).
 
 Aliás, esse ponto parece ter um viés desconectado da essência
 da programação em si, visto que ele parece sugerir algo para se adequar ao mercado
