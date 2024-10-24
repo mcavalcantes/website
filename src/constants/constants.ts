@@ -167,6 +167,7 @@ export const SOCIALS: Array<Social> = [
     ICON: {
       BLACK: emailBlack,
       WHITE: emailWhite,
+      ALT: "ícone do Email",
     },
     HREF: "mailto:matheuscavalcantes.mc@gmail.com",
     TITLE: "Email",
@@ -175,6 +176,7 @@ export const SOCIALS: Array<Social> = [
     ICON: {
       BLACK: instagramBlack,
       WHITE: instagramWhite,
+      ALT: "ícone do Instagram",
     },
     HREF: "https://www.instagram.com/mcavalcante.s/",
     TITLE: "Instagram",
@@ -183,6 +185,7 @@ export const SOCIALS: Array<Social> = [
     ICON: {
       BLACK: linkedinBlack,
       WHITE: linkedinWhite,
+      ALT: "ícone do LinkedIn",
     },
     HREF: "https://www.linkedin.com/in/ms-cavalcante/",
     TITLE: "LinkedIn",
@@ -191,6 +194,7 @@ export const SOCIALS: Array<Social> = [
     ICON: {
       BLACK: githubBlack,
       WHITE: githubWhite,
+      ALT: "ícone do GitHub",
     },
     HREF: "https://github.com/mcavalcantes",
     TITLE: "GitHub",
@@ -199,6 +203,7 @@ export const SOCIALS: Array<Social> = [
     ICON: {
       BLACK: spotifyBlack,
       WHITE: spotifyWhite,
+      ALT: "ícone do Spotify",
     },
     HREF: "https://open.spotify.com/user/rbon5uxdcd2qfk7oc26ezujmm",
     TITLE: "Spotify",

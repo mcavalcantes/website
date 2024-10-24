@@ -33,7 +33,11 @@ export const Home = () => {
   return (
     <Layout theme={theme} setTheme={setTheme}>
       <section className="items-center gap-2 md:gap-4 md:flex-row md:items-start">
-        <img src={profilePicture} className="h-36 w-36 rounded-full" />
+        <img
+          src={profilePicture}
+          className="h-36 w-36 rounded-full"
+          alt="foto de perfil"
+        />
         <div className="flex flex-col gap-2">
           <h1 className="w-full text-center md:text-left">Olá, sou o Matheus!</h1>
           <p className="w-full">

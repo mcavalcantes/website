@@ -36,6 +36,7 @@ export interface Social {
   ICON: {
     BLACK: string;
     WHITE: string;
+    ALT: string;
   };
   HREF: string;
   TITLE: string;

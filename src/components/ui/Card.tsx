@@ -31,7 +31,7 @@ export const Card = ({
         {
           HREF &&
           <a href={HREF} className="rounded hover:bg-light-hover dark:hover:bg-dark-hover transition ease-out" target="_blank">
-            <img src={localStorage.getItem("theme") === "light" ?
+            <img alt="ícone de link externo" src={localStorage.getItem("theme") === "light" ?
               blackExternalIcon :
               whiteExternalIcon
             }/>

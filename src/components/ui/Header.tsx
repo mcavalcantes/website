@@ -28,8 +28,8 @@ export const Header = ({ theme, setTheme }: HeaderProps) => {
         <HeaderButton href="/blog" title="Blog" />
       </span>
       <span className="flex items-center gap-2">
-        <button onClick={toggleTheme} className="p-1 rounded hover:bg-light-hover dark:hover:bg-dark-hover transition ease-out">
-          <img src={theme === "light" ? moonIcon : sunIcon}/>
+        <button id="theme-changer" onClick={toggleTheme} className="p-1 rounded hover:bg-light-hover dark:hover:bg-dark-hover transition ease-out">
+          <img src={theme === "light" ? moonIcon : sunIcon} alt="ícone do tema"/>
         </button>
       </span>
     </header>
