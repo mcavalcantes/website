@@ -49,10 +49,9 @@ export const SKILLS: Array<Skill> = [
     ITEMS: [
       "TypeScript",
       "JavaScript",
+      "SQL",
       "HTML",
       "CSS",
-      "Python",
-      "SQL",
     ],
   },
   {
@@ -61,6 +60,11 @@ export const SKILLS: Array<Skill> = [
       "React",
       "Tailwind CSS",
       "PostgreSQL",
+      "SQLite",
+      "Docker",
+      "AWS",
+      "Node.js",
+      "Next.js",
     ],
   },
   {
@@ -69,13 +73,12 @@ export const SKILLS: Array<Skill> = [
       "Visual Studio Code",
       "Figma",
       "Git",
-    ],
-  },
-  {
-    TITLE: "Outros",
-    ITEMS: [
-      "Inglês",
-      "Automação",
+      "GitHub",
+      "Obsidian",
+      "Vite",
+      "ChatGPT",
+      "GitHub Copilot",
+      "npm",
     ],
   },
 ];
