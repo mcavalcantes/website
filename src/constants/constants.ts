@@ -49,6 +49,7 @@ export const SKILLS: Array<Skill> = [
     ITEMS: [
       "TypeScript",
       "JavaScript",
+      "Python",
       "SQL",
       "HTML",
       "CSS",
@@ -63,8 +64,6 @@ export const SKILLS: Array<Skill> = [
       "SQLite",
       "Docker",
       "AWS",
-      "Node.js",
-      "Next.js",
     ],
   },
   {
@@ -73,11 +72,7 @@ export const SKILLS: Array<Skill> = [
       "Visual Studio Code",
       "Figma",
       "Git",
-      "GitHub",
-      "Obsidian",
       "Vite",
-      "ChatGPT",
-      "GitHub Copilot",
       "npm",
     ],
   },
