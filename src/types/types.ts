@@ -49,3 +49,8 @@ export interface Post {
   PREVIEW: string;
   CONTENT: string;
 }
+
+export interface Resource {
+  HREF: string;
+  TITLE: string;  
+}

@@ -6,6 +6,7 @@ import {
   Achievement,
   Social,
   Post,
+  Resource,
 } from "../types/types";
 
 import TRINTA_PREVIEW from "../assets/posts/TRINTA_PREVIEW.md";
@@ -49,10 +50,9 @@ export const SKILLS: Array<Skill> = [
     ITEMS: [
       "TypeScript",
       "JavaScript",
-      "Python",
       "SQL",
-      "HTML",
-      "CSS",
+      "Python",
+      "Java",
     ],
   },
   {
@@ -61,9 +61,8 @@ export const SKILLS: Array<Skill> = [
       "React",
       "Tailwind CSS",
       "PostgreSQL",
-      "SQLite",
-      "Docker",
-      "AWS",
+      "Next.js",
+      "Node.js",
     ],
   },
   {
@@ -72,8 +71,18 @@ export const SKILLS: Array<Skill> = [
       "Visual Studio Code",
       "Figma",
       "Git",
-      "Vite",
       "npm",
+      "Obsidian",
+    ],
+  },
+  {
+    TITLE: "Outros",
+    ITEMS: [
+      "Inglês",
+      "Automação",
+      "Word",
+      "PowerPoint",
+      "Excel",
     ],
   },
 ];
@@ -222,5 +231,12 @@ export const POSTS: Array<Post> = [
     TITLE: "30 dias, 30 músicas",
     PREVIEW: TRINTA_PREVIEW,
     CONTENT: TRINTA,
+  },
+];
+
+export const RESOURCES: Array<Resource> = [
+  {
+    HREF: "https://www.benkuhn.net/hard/",
+    TITLE: "Você não precisa trabalhar fazendo coisas difíceis.",
   },
 ];

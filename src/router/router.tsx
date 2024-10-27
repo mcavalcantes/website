@@ -3,6 +3,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Home } from "../pages/Home/home";
 import { Blog } from "../pages/Blog/blog";
 import { Post } from "../pages/Post/post";
+import { Resources } from "../pages/Resources/resources";
 
 import { POSTS } from "../constants/constants";
 
@@ -14,6 +15,10 @@ const ROUTES = [
   {
     path: "blog",
     element: <Blog />,
+  },
+  {
+    path: "recursos",
+    element: <Resources />,
   },
 ];
 
