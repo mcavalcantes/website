@@ -23,13 +23,13 @@ export const Resources = () => {
     <Layout theme={theme} setTheme={setTheme}>
       <h1>Recursos</h1>
       <p>Uma coletânea de conteúdos interessantes que vejo por aí.</p>
-      <ul className="gap-4">
+      <ul className="gap-2">
         {RESOURCES.map(item =>
           <li key={uuidv4()}>
             <a
               href={item.HREF}
               target="_blank"
-              className="px-0.5 underline decoration-dotted underline-offset-2 bg-light-hover dark:bg-dark-hover"
+              className="text-sky-800 dark:text-sky-600 hover:underline"
             >
               {item.TITLE}
             </a>
