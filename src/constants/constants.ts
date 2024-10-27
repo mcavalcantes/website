@@ -237,6 +237,18 @@ export const POSTS: Array<Post> = [
 export const RESOURCES: Array<Resource> = [
   {
     HREF: "https://www.benkuhn.net/hard/",
-    TITLE: "Você não precisa trabalhar fazendo coisas difíceis.",
+    TITLE: "Você não precisa trabalhar em coisas difíceis.",
+  },
+  {
+    HREF: "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+    TITLE: "Coisas que eu gostaria que alguém tivesse me contado.",
+  },
+  {
+    HREF: "https://www.youtube.com/watch?v=eFnV6EM-wzY",
+    TITLE: "O momento exato em que Jeff Bezos decidiu não se tornar um físico.",
+  },
+  {
+    HREF: "https://www.nature.com/articles/426389a",
+    TITLE: "Quatro lições de ouro de Steven Weinberg (prêmio Nobel de física de 1979).",
   },
 ];
