@@ -22,17 +22,24 @@ export const Resources = () => {
   return (
     <Layout theme={theme} setTheme={setTheme}>
       <h1>Recursos</h1>
-      <p>Uma coletânea de conteúdos interessantes que vejo por aí.</p>
+      <p>Uma coletânea de conteúdos que vejo por aí.</p>
       <ul className="gap-2">
         {RESOURCES.map(item =>
           <li key={uuidv4()}>
-            <a
-              href={item.HREF}
-              target="_blank"
-              className="text-sky-800 dark:text-sky-600 hover:underline"
-            >
-              {item.TITLE}
-            </a>
+            <h2>{item.TITLE}</h2>
+            <ul className="gap-2">
+              {item.ITEMS.map(item =>
+                <li key={uuidv4()}>
+                  <a
+                    href={item.HREF}
+                    target="_blank"
+                    className="text-sky-800 dark:text-sky-600 hover:underline"
+                  >
+                    {item.TITLE}
+                  </a>
+                </li>
+               )}
+            </ul>
           </li>
         )}
       </ul>

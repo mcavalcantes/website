@@ -240,19 +240,51 @@ export const POSTS: Array<Post> = [
 
 export const RESOURCES: Array<Resource> = [
   {
-    HREF: "https://www.benkuhn.net/hard/",
-    TITLE: "Você não precisa trabalhar em coisas difíceis.",
+    TITLE: "Geral",
+    ITEMS: [
+      {
+        HREF: "https://www.benkuhn.net/hard/",
+        TITLE: "Você não precisa trabalhar em coisas difíceis.",
+      },
+      {
+        HREF: "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
+        TITLE: "Coisas que eu gostaria que alguém tivesse me contado, por Sam Altman.",
+      },
+      {
+        HREF: "https://www.nature.com/articles/426389a",
+        TITLE: "Quatro lições de ouro de Steven Weinberg (prêmio Nobel de física de 1979).",
+      },
+    ],
   },
   {
-    HREF: "https://blog.samaltman.com/what-i-wish-someone-had-told-me",
-    TITLE: "Coisas que eu gostaria que alguém tivesse me contado.",
+    TITLE: "Tecnologia",
+    ITEMS: [
+      {
+        HREF: "https://www.youtube.com/watch?v=juKv1aHEikI",
+        TITLE: "Ex-funcionário da Google explicando por que prefere programar em C do que fazer desenvolvimento web.",
+      },
+      {
+        HREF: "https://www.youtube.com/watch?v=TXB-t21zwVA",
+        TITLE: "Insights sobre o futuro dos programadores, e o que isso tem a ver com inteligência artificial.",
+      },
+    ],
   },
   {
-    HREF: "https://www.youtube.com/watch?v=eFnV6EM-wzY",
-    TITLE: "O momento exato em que Jeff Bezos decidiu não se tornar um físico.",
-  },
-  {
-    HREF: "https://www.nature.com/articles/426389a",
-    TITLE: "Quatro lições de ouro de Steven Weinberg (prêmio Nobel de física de 1979).",
+    TITLE: "Música",
+    ITEMS: [
+      {
+        HREF: "https://www.youtube.com/shorts/z-RF3KaGGeE",
+        TITLE: "Maicon Küster sendo absolutamente cirúrgico ao descrever o Trap Carioca num freestyle.",
+      },
+      {
+        HREF: "https://www.youtube.com/watch?v=Zyprti-BUt0",
+        TITLE: "Marca d'água do Pharrel Williams relativamente escondida em suas músicas (lembra de Tokyo Drift?).",
+      },
+      {
+        HREF: "https://www.youtube.com/watch?v=iVFh8Lp5DEQ",
+        TITLE: "Sessão de estúdio de quando o Lil Uzi Vert gravou XO Tour Llif3, mostrando " +
+        "um processo criativo simplesmente fabuloso.",
+      },
+    ],
   },
 ];

@@ -51,6 +51,9 @@ export interface Post {
 }
 
 export interface Resource {
-  HREF: string;
-  TITLE: string;  
+  TITLE: string;
+  ITEMS: Array<{
+    HREF: string;
+    TITLE: string;
+  }>;
 }
