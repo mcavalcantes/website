@@ -13,6 +13,8 @@ import TRINTA_PREVIEW from "../assets/posts/TRINTA_PREVIEW.md";
 import TRINTA from "../assets/posts/TRINTA.md";
 import QUATRO_PREVIEW from "../assets/posts/QUATRO_PREVIEW.md";
 import QUATRO from "../assets/posts/QUATRO.md";
+import CARREIRA from "../assets/posts/CARREIRA.md";
+import CARREIRA_PREVIEW from "../assets/posts/CARREIRA_PREVIEW.md";
 
 import emailBlack from "../assets/icons/iconmonstr-email-4-black.svg";
 import emailWhite from "../assets/icons/iconmonstr-email-4-white.svg";
@@ -42,8 +44,10 @@ export const SKILLS: Array<Skill> = [
   {
     TITLE: "Linguagens",
     ITEMS: [
-      "TypeScript/JavaScript",
-      "C/C++",
+      "TypeScript",
+      "JavaScript",
+      "C",
+      "C++",
       "Python",
       "Java",
     ],
@@ -212,6 +216,13 @@ export const SOCIALS: Array<Social> = [
 ];
 
 export const POSTS: Array<Post> = [
+  {
+    DATE: ,
+    HREF: "carreira",
+    TITLE: "O melhor conselho de carreira que existe",
+    PREVIEW: CARREIRA_PREVIEW,
+    CONTENT: CARREIRA,
+  },
   {
     DATE: "20 out. 2024",
     HREF: "quatro",
