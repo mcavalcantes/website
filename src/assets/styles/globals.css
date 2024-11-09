@@ -131,3 +131,7 @@ article li::marker {
 article a {
   @apply px-0.5 underline decoration-dotted underline-offset-2 bg-light-hover dark:bg-dark-hover;
 }
+
+article blockquote {
+  @apply italic text-2xl;
+}

@@ -36,24 +36,16 @@ export const EDUCATIONS: Array<Education> = [
     TITLE: "UTFPR",
     SUBTITLE: "Bacharelado em Engenharia de Computação",
   },
-  {
-    START_DATE: "abr. 2018",
-    END_DATE: "set. 2021",
-    TITLE: "IFPA",
-    SUBTITLE: "Técnico em Meio Ambiente integrado ao Ensino Médio",
-  },
 ];
 
 export const SKILLS: Array<Skill> = [
   {
     TITLE: "Linguagens",
     ITEMS: [
-      "TypeScript",
-      "JavaScript",
+      "TypeScript/JavaScript",
+      "C/C++",
       "Python",
-      "HTML",
-      "CSS",
-      "SQL",
+      "Java",
     ],
   },
   {
@@ -61,20 +53,19 @@ export const SKILLS: Array<Skill> = [
     ITEMS: [
       "React",
       "Tailwind CSS",
-      "PostgreSQL",
-      "Node.js",
       "Next.js",
-      "IPython",
+      "Node.js",
+      "MongoDB",
+      "AWS",
     ],
   },
   {
     TITLE: "Ferramentas",
     ITEMS: [
       "Visual Studio Code",
-      "Figma",
-      "Git",
-      "Postman",
       "Docker",
+      "Postman",
+      "Git",
       "npm",
     ],
   },
@@ -84,9 +75,8 @@ export const SKILLS: Array<Skill> = [
       "Inglês",
       "Algoritmos",
       "Estruturas de Dados",
-      "Word",
-      "PowerPoint",
-      "Excel",
+      "Arquitetura de Sistemas",
+      "Cloud",
     ],
   },
 ];
@@ -136,7 +126,7 @@ export const PROJECTS: Array<Project> = [
     "Além disso, também serve como uma página onde guardo meus pensamentos e ideias " +
     "na forma de artigos, como um repositório da mente.",
     BULLETS: [
-      "Feito com TypeScript, React, Tailwind CSS, e Node.js.",
+      "Feito do zero usando o Vite como ferramenta de build, e TypeScript, React, Tailwind CSS, e Node.js.",
       "Interface de usuário totalmente responsiva, com prototipagem prévia feita no Figma.",
       "Blog com suporte para escrita usando arquivos Markdown, permitindo uma melhor organização da estrutura dos posts.",
     ],
@@ -278,7 +268,7 @@ export const RESOURCES: Array<Resource> = [
       },
       {
         HREF: "https://www.youtube.com/watch?v=Zyprti-BUt0",
-        TITLE: "Marca d'água do Pharrel Williams relativamente escondida em suas músicas (lembra de Tokyo Drift?).",
+        TITLE: "Marca d'água do Pharrell Williams relativamente escondida em suas músicas (lembra de Tokyo Drift?).",
       },
       {
         HREF: "https://www.youtube.com/watch?v=iVFh8Lp5DEQ",
